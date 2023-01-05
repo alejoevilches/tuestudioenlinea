@@ -6,5 +6,5 @@ let responsiveMenuSection=document.querySelector(".responsive-menu")
 menuButton.addEventListener("click", ()=>{
     let responsiveMenu=`
     `
-    responsiveMenuSection.innerHTML=responsiveMenu;
+    responsiveMenuSection.innerHTML
 })
