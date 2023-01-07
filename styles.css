@@ -4,6 +4,15 @@
     margin:0;
 }
 
+@font-face {
+    font-family: Nunito Medium;
+    src: url(/assets/fonts/Nunito-Medium.ttf);
+}
+
+:root{
+    --h3-font:"Nunito Medium";
+}
+
 /* Estilos para el nav */
 nav{
     display:flex;
@@ -30,21 +39,46 @@ nav img{
 }
 
 .responsive-menu{
-    display:flex;
-    justify-content:flex-end;
+    display:none;
+    animation:fadeIn 2s;
+    
 }
 
 .responsive-links{
-    color:red;
+    color:black;
+    font-family: var(--h3-font);
     display:flex;
     flex-direction: column;
-    align-items: flex-end;
-    gap:10px;
+    align-items: center;
+    gap:20px;
     padding-right:15px;
     list-style: none;
     border:1px solid rgb(216, 216, 216);
-    width:max-content;
-    padding:30px 0;
+    width:300px;
+    padding:30px 10px 30px 0;
 }
+
+.responsive-menu-active{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    animation:fadeInDown 2s;
+}
+
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+ } 
+
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+ } 
 
   

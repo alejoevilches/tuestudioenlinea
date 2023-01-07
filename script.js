@@ -4,7 +4,6 @@ let responsiveMenuSection=document.querySelector(".responsive-menu")
 
 //Chequear si se hace click en el boton
 menuButton.addEventListener("click", ()=>{
-    let responsiveMenu=`
-    `
-    responsiveMenuSection.innerHTML
+    console.log("gunciona")
+    responsiveMenuSection.classList.toggle("responsive-menu-active");
 })
