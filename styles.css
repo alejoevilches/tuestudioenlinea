@@ -19,7 +19,8 @@
     --h1-font:"Nunito Regular";
     --secondary-color:rgb(0, 153, 255);
     --secondary-text-color:white;
-    --border-color:rgb(204, 204, 204)
+    --border-color:rgb(204, 204, 204);
+    --dark-blue:rgb(12, 96, 151);
 }
 
 /* Estilos para el nav */
@@ -154,7 +155,7 @@ button {
   }
   
   button:hover {
-    background-color: rgb(12, 96, 151);
+    background-color: var(--dark-blue);
     color: #fff;
     transform: translateY(-7px);
   }
@@ -217,4 +218,15 @@ button {
     display:flex;
     flex-direction: column;
     margin-top:5vh;
+}
+
+/*Acá arranca la sección "Que hacemos nosotros?" */
+.ours{
+    background-color: var(--dark-blue);
+    padding-top:1vh;
+}
+
+.ours_avatar{
+    width:60vw;
+    clip-path: circle(35% at 50% 39%);
 }
