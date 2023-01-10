@@ -19,6 +19,7 @@
     --h1-font:"Nunito Regular";
     --secondary-color:rgb(0, 153, 255);
     --secondary-text-color:white;
+    --border-color:rgb(204, 204, 204)
 }
 
 /* Estilos para el nav */
@@ -125,6 +126,7 @@ nav img{
     font-family:var(--h3-font);
     padding:2vh 0 0 2vw;
     width:80vw;
+    text-align: justify;
 }
   
 .hero-container{
@@ -160,3 +162,59 @@ button {
   button:active {
     transform: translateY(-1px);
   }
+
+/*Acá arranca la sección "Por que necesitas un sitio web?"*/
+  .why{
+    font-family: var(--h3-font);
+    text-align: center;
+    font-size:1.5em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.why_description{
+    margin-top:4vh;
+    text-align: justify;
+    width:80vw;
+}
+
+.why h2{
+    width:70vw;
+    max-width:600px;
+}
+
+.card{
+    border:2px solid var(--border-color);
+    list-style: none;
+    border-radius: 50px;
+    width:65vw;
+    max-width:400px;
+    overflow: auto;
+    word-wrap: break-word;
+    margin-bottom:15px;
+    box-shadow:1px 1px 30px 1px var(--border-color);;
+}
+
+.card p{
+    font-size:0.8em;
+    width:fit-content;
+    text-align:justify;
+    padding:10px 20px 25px 10px;
+}
+
+.card li{
+    border-bottom:2px solid var(--border-color);
+    height:10vh;
+    background-color: var(--secondary-color);
+    text-align: left;
+    padding:30px 0 0 18px;
+    color:var(--secondary-text-color)
+}
+
+.card_container{
+    display:flex;
+    flex-direction: column;
+    margin-top:5vh;
+}
