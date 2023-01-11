@@ -10,6 +10,16 @@
 }
 
 @font-face {
+    font-family: Nunito Medium Italic;
+    src: url(/assets/fonts/Nunito-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: Nunito Light;
+    src: url(/assets/fonts/Nunito-Light.ttf);
+}
+
+@font-face {
     font-family: Nunito Regular;
     src: url(/assets/fonts/Nunito-Regular.ttf);
 }
@@ -227,6 +237,24 @@ button {
 }
 
 .ours_avatar{
-    width:60vw;
-    clip-path: circle(35% at 50% 39%);
+    width:200px;
+    height:200px;
+    padding-left:2vw;
+}
+
+.ours h2{
+    padding-left:2vw;
+    color:white;
+    font-family: "Nunito Regular";
+    font-size:2em;
+    margin-top: 2vh;
+}
+
+
+.ours p{
+    font-family: "Nunito Light";
+    text-align: justify;
+    color:white;
+    padding:10px 2vw;
+    font-size:1.2em;
 }
