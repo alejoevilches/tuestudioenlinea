@@ -129,7 +129,7 @@ nav img{
     font-family: var(--h1-font);
     color:var(--secondary-text-color);
     font-size: min(8vw, 64px);
-    padding:0 0 10px 2vw;
+    padding-left: 2vw;
 }
 
 .hero h2{
@@ -145,7 +145,7 @@ nav img{
     padding-top:20px;
     display:flex;
     align-items: center;
-    height:70vh;
+    height:60vh;
 }
 
 button {
