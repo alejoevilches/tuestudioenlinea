@@ -133,7 +133,7 @@ nav img{
 .hero h1{
     font-family: "Nunito Bold";
     color:var(--secondary-text-color);
-    font-size: 8vw;
+    font-size: min(8vw,60px);
     padding-left: 2vw;
 }
 
@@ -142,7 +142,7 @@ nav img{
     font-family:"Nunito Light";
     padding:2vh 2vw 0 2vw;
     text-align: justify;
-    font-size:4vw;
+    font-size:min(4vw, 24px);
 }
   
 .hero-container{
@@ -150,6 +150,7 @@ nav img{
     display:flex;
     align-items: center;
     height:61vh;
+    max-height:490px;
 }
 
 
@@ -179,6 +180,18 @@ button {
     transform: translateY(-1px);
   }
 
+@media screen and (min-width:600px) {
+    .hero h1{
+        color:red;
+        padding-top:12vh;
+    }
+
+@media screen and (min-width:1000px) {
+    .hero h2{
+        width:900px;
+    }    
+}
+}
 /*Acá arranca la sección "Por que necesitas un sitio web?"*/
   .why{
     font-family: var(--h3-font);
@@ -199,14 +212,14 @@ button {
 
 .why h2{
     width:70vw;
-    max-width:600px;
+    max-width:800px;
 }
 
 .card{
     border:2px solid var(--border-color);
     list-style: none;
     border-radius: 50px;
-    max-width:400px;
+    width:400px;
     overflow: auto;
     word-wrap: break-word;
     margin:0 4vw 10px 4vw;
@@ -234,8 +247,21 @@ button {
     display:flex;
     flex-direction: column;
     margin-top:5vh;
+    flex-wrap: wrap;
 }
 
+@media screen and (min-width:600px) {
+    .card_container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+}
+}
+    
+    .card{
+        margin:0;
+    }
 /*Acá arranca la sección "Que hacemos nosotros?" */
 .ours{
     background-color: var(--dark-blue);
@@ -271,7 +297,7 @@ button {
 }
 
 .contact{
-    margin-bottom:5vh;
+    margin-bottom:2vh;
 }
 
 .contact h2{
@@ -282,7 +308,7 @@ button {
 }
 
 .contact p{
-    padding:10px 2vw;
+    padding:0 2vw;
     font-size:1.3em;
     font-family: "Nunito Light";
     text-align: justify;
@@ -304,9 +330,4 @@ footer{
     display:flex;
     align-items: flex-end;
     justify-content: center;
-}
-
-footer a{
-    text-decoration: none;
-    color:inherit
 }
