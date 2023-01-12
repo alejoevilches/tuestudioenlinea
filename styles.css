@@ -10,6 +10,11 @@
 }
 
 @font-face {
+    font-family: Nunito Medium;
+    src: url(/assets/fonts/Nunito-Medium.ttf);
+}
+
+@font-face {
     font-family: Nunito Medium Italic;
     src: url(/assets/fonts/Nunito-MediumItalic.ttf);
 }
@@ -131,7 +136,6 @@ nav img{
     font-size: 7vw;
     padding-left: 2vw;
     padding-top:5vh;
-
 }
 
 .hero h2{
@@ -139,6 +143,7 @@ nav img{
     font-family:"Nunito Light";
     padding:2vh 3vw 0 2vw;
     text-align: justify;
+    font-size:4vw;
 }
   
 .hero-container{
@@ -146,7 +151,7 @@ nav img{
     padding-top:20px;
     display:flex;
     align-items: center;
-    height:60vh;
+    height:65vh;
 }
 
 button {
