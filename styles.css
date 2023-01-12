@@ -128,15 +128,16 @@ nav img{
 .hero h1{
     font-family: var(--h1-font);
     color:var(--secondary-text-color);
-    font-size: min(8vw, 64px);
+    font-size: 8vw;
     padding-left: 2vw;
+    padding-top:5vh;
+
 }
 
 .hero h2{
     color:var(--secondary-text-color);
     font-family:var(--h3-font);
-    padding:2vh 0 0 2vw;
-    width:80vw;
+    padding:2vh 3vw 0 2vw;
     text-align: justify;
 }
   
