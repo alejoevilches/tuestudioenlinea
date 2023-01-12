@@ -135,7 +135,6 @@ nav img{
     color:var(--secondary-text-color);
     font-size: 8vw;
     padding-left: 2vw;
-    padding-top:5vh;
 }
 
 .hero h2{
@@ -148,7 +147,6 @@ nav img{
   
 .hero-container{
     background-color: var(--secondary-color);
-    padding-top:20px;
     display:flex;
     align-items: center;
     height:63vh;
