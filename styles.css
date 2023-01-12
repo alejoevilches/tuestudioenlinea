@@ -133,7 +133,7 @@ nav img{
 .hero h1{
     font-family: "Nunito Bold";
     color:var(--secondary-text-color);
-    font-size: 7vw;
+    font-size: 8vw;
     padding-left: 2vw;
     padding-top:5vh;
 }
@@ -141,7 +141,7 @@ nav img{
 .hero h2{
     color:var(--secondary-text-color);
     font-family:"Nunito Light";
-    padding:2vh 3vw 0 2vw;
+    padding:2vh 2vw 0 2vw;
     text-align: justify;
     font-size:4vw;
 }
@@ -151,7 +151,7 @@ nav img{
     padding-top:20px;
     display:flex;
     align-items: center;
-    height:65vh;
+    height:63vh;
 }
 
 button {
