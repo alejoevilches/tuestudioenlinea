@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: Nunito Medium;
-    src: url(/assets/fonts/Nunito-Medium.ttf);
+    font-family: Nunito Bold;
+    src: url(/assets/fonts/Nunito-Bold.ttf);
 }
 
 @font-face {
@@ -126,9 +126,9 @@ nav img{
 
  /* Atributos del hero */
 .hero h1{
-    font-family: var(--h1-font);
+    font-family: "Nunito Bold";
     color:var(--secondary-text-color);
-    font-size: 8vw;
+    font-size: 7vw;
     padding-left: 2vw;
     padding-top:5vh;
 
@@ -136,7 +136,7 @@ nav img{
 
 .hero h2{
     color:var(--secondary-text-color);
-    font-family:var(--h3-font);
+    font-family:"Nunito Light";
     padding:2vh 3vw 0 2vw;
     text-align: justify;
 }
