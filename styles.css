@@ -149,8 +149,9 @@ nav img{
     background-color: var(--secondary-color);
     display:flex;
     align-items: center;
-    height:60vh;
+    height:61vh;
 }
+
 
 button {
     padding: 1.3em 3em;
