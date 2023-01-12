@@ -248,6 +248,7 @@ button {
     flex-direction: column;
     margin-top:5vh;
     flex-wrap: wrap;
+    gap:20px;
 }
 
 @media screen and (min-width:600px) {
