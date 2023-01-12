@@ -149,7 +149,7 @@ nav img{
     background-color: var(--secondary-color);
     display:flex;
     align-items: center;
-    height:63vh;
+    height:60vh;
 }
 
 button {
