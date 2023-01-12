@@ -4,10 +4,6 @@
     margin:0;
 }
 
-svg{
-    overflow: visible;
-}
-
 @font-face {
     font-family: Nunito Bold;
     src: url(/assets/fonts/Nunito-Bold.ttf);
