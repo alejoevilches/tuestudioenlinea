@@ -267,7 +267,6 @@ button {
 /*Acá arranca la sección "Que hacemos nosotros?" */
 .ours{
     background-color: var(--dark-blue);
-    border-top:2px solid var(--dark-blue);
 }
 
 .ours_avatar{
