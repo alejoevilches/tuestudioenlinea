@@ -333,12 +333,16 @@ button {
 }
 
 footer{
-    height:5vh;
+    height:8vh;
     background-color: black;
     text-align:center;
     color:white;
     font-family: "Nunito Light";
     display:flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
+}
+
+footer a{
+    color:white;
 }
