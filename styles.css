@@ -36,6 +36,7 @@
     --secondary-text-color:white;
     --border-color:rgb(204, 204, 204);
     --dark-blue:rgb(12, 96, 151);
+    --left-paddings:2vw;
 }
 
 /* Estilos para el nav */
@@ -62,6 +63,12 @@ nav img{
     top:5px;
 }
 
+.desktop-menu a{
+    font-family: "Nunito Light";
+    text-decoration: none;
+    color:black;
+}
+
 .responsive-menu{
     display:none;
     animation:fadeIn 2s;
@@ -69,7 +76,6 @@ nav img{
 }
 
 .responsive-links{
-    color:black;
     font-family: var(--h3-font);
     display:flex;
     flex-direction: column;
@@ -80,6 +86,11 @@ nav img{
     border:1px solid rgb(216, 216, 216);
     width:300px;
     padding:30px 10px 30px 0;
+}
+
+.responsive-links a{
+    color:black;
+    text-decoration: none;
 }
 
 .responsive-menu-active{
@@ -182,7 +193,6 @@ button {
 
 @media screen and (min-width:600px) {
     .hero h1{
-        color:red;
         padding-top:12vh;
     }
 
@@ -201,6 +211,7 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom:7vh;
 }
 
 .why_description{
@@ -225,7 +236,6 @@ button {
     word-wrap: break-word;
     margin:0 4vw 10px 4vw;
     box-shadow:1px 1px 30px 1px var(--border-color);
-
 }
 
 .card p{
@@ -267,6 +277,7 @@ button {
 /*Acá arranca la sección "Que hacemos nosotros?" */
 .ours{
     background-color: var(--dark-blue);
+    padding-top:3vh;
 }
 
 .ours_avatar{
