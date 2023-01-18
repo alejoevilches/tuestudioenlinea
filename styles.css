@@ -160,7 +160,7 @@ nav img{
     background-color: var(--secondary-color);
     display:flex;
     align-items: center;
-    height:61vh;
+    height:60vh;
     max-height:490px;
 }
 
@@ -284,6 +284,11 @@ button {
     width:200px;
     height:200px;
     padding-left:2vw;
+}
+
+.ours_waveseparation{
+    position:relative;
+    top:35px;
 }
 
 .ours h2{
