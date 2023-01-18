@@ -99,7 +99,7 @@ nav img{
     align-items: center;
     right:0;
     position:absolute;
-    animation:fadeInDown 2s;
+    animation:fadeInDown 1s;
 }
 
 @keyframes fadeInDown {
@@ -309,6 +309,8 @@ button {
 
 .contact{
     margin-bottom:2vh;
+    position:relative;
+    bottom:6vw;
 }
 
 .contact h2{
